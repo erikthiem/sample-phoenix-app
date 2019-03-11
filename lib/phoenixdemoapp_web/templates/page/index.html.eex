@@ -1,7 +1,7 @@
 <section class="phx-hero">
   <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <p>A productive web framework that<br/>does not compromise speed and maintainability.</p>
-  <h3>Time seconds: <%= DateTime.utc_now().second %></h3>
+  <h3>Computation: <%= 2 + 5 %></h3>
 </section>
 
 <section class="row">
